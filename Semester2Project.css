@@ -1,0 +1,25 @@
+/*
+* Chloe Sylvester
+* 25 March, 2019
+* Semester 2 Project Table
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+body {
+        background-color: lightyellow; /* this is the pink color that shows behind my schedule */
+}
+
+table, td, th { border: 3.5px solid orange; } /* this is my line border size and color */
+
+table { border-collapse: collapse; } /* this attribute allows me to not have a border around each cell */
+
+thead { background-color: #9999FF; } /* this is the vibrant color of my two heading rows */
+tbody { background-color: #99FFFF; } /* this shows a different color of my schedule than the entire page */
+tfoot { background-color: #CC99FF; } /* this gives you the color of my after school activities that show my fun life once */
